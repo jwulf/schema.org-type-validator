@@ -1,0 +1,19 @@
+{
+  "name": "schema.org-type-validator",
+  "version": "0.0.1",
+  "description": "A validator for schema.org types and properties",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node test.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jwulf/schema.org-type-validator.git"
+  },
+  "keywords": [
+    "schema.org"
+  ],
+  "author": "Joshua Wulf",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}

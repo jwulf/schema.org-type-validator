@@ -62,3 +62,13 @@ Check if a given type is valid for a property:
                 ' a valid type for a copyrightHolder');
         }
     );
+
+## Running the tests ##
+
+Install Jasmine for node:
+    
+    npm install -g jasmine-node
+
+Run the tests:
+
+    jasmine-node test.spec.js

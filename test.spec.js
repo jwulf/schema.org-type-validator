@@ -102,3 +102,19 @@ describe('getExpectedTypes', function () {
        }); 
     });
 });
+
+describe('checkIsValidTypeInSchema'), function() {
+    it('Correctly identifies a valid type', function (done){
+        validator.checkIsValidTypeInSchema('Event', function(err, result){
+            expect(result).ToEqual(true);
+        done();
+        });
+    });
+    it('Correctly identifies an invalid type', function (done){
+        validator.checkIsValidTypeInSchema('Random6789x^', function(err, result){
+            expect(result).ToEqual(false);
+            done();
+        });
+    });
+});
+}
